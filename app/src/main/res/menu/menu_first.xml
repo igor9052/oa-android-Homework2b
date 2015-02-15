@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".FirstActivity">
+    <item android:id="@+id/action_send_serializable_object" android:title="@string/send_serializable_object"
+        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:id="@+id/action_send_parcelable_object" android:title="@string/send_parcelable_object"
+        android:orderInCategory="101" app:showAsAction="never" />
+    <item android:id="@+id/action_send_parcelable_array" android:title="@string/send_parcelable_array"
+        android:orderInCategory="102" app:showAsAction="never" />
+
+    <item android:id="@+id/action_get_data_from_third_activity" android:title="@string/action_get_data_from_third_activity"
+        android:orderInCategory="200" app:showAsAction="never" />
+</menu>

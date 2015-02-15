@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Homework2b</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="send_serializable_object">Send serializable object</string>
+    <string name="action_get_data_from_third_activity">Get data from Third activity</string>
+    <string name="send_parcelable_object">Send parcelable object</string>
+    <string name="send_parcelable_array">Send parcelable array</string>
+</resources>
