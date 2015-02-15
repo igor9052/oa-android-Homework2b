@@ -6,7 +6,12 @@
     <string name="title_activity_second">SecondActivity</string>
     <string name="title_activity_third">ThirdActivity</string>
     <string name="send_serializable_object">Send serializable object</string>
-    <string name="action_get_data_from_third_activity">Get data from Third activity</string>
+    <string name="action_get_serializable_object">Get serializable object</string>
     <string name="send_parcelable_object">Send parcelable object</string>
     <string name="send_parcelable_array">Send parcelable array</string>
+    <string name="return_serializable_object">Return serializable object</string>
+    <string name="action_get_parcelable_object">Get parcelable object</string>
+    <string name="action_get_parcelable_array">Get parcelable array</string>
+    <string name="return_parcelable_object">Return parcelable object</string>
+    <string name="return_parcelable_array">Return parcelable array</string>
 </resources>
