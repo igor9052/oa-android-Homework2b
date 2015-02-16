@@ -114,7 +114,7 @@ public class FirstActivity extends ActionBarActivity {
         int size = 10;
         Cherry[] fruits = new Cherry[size];
         for (int i = 0; i < size; i++) {
-            fruits[i] = new Cherry("Cherry"+i, i );
+            fruits[i] = new Cherry("Cherry"+i, "unknown", i );
         }
         intent.putExtra("FRUIT",fruits);
         startActivity(intent);
@@ -123,7 +123,7 @@ public class FirstActivity extends ActionBarActivity {
 
     private void sendParcelableObject() {
         Intent intent = new Intent(this, SecondActivity.class);
-        IFruit fruit = new Cherry("Cherry", 10);
+        IFruit fruit = new Cherry("Cherry", "unknown", 10);
         intent.putExtra("FRUIT", (android.os.Parcelable) fruit);
         startActivity(intent);
     }

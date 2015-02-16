@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Homework2b.iml" filepath="$PROJECT_DIR$/Homework2b.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/oa-android-Homework2b.iml" filepath="$PROJECT_DIR$/oa-android-Homework2b.iml" />
     </modules>

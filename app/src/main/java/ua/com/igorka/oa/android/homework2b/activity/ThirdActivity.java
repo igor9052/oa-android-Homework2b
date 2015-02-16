@@ -60,7 +60,7 @@ public class ThirdActivity extends ActionBarActivity {
         int size = 10;
         Cherry[] fruits = new Cherry[size];
         for (int i = 0; i < size; i++) {
-            fruits[i] = new Cherry("Cherry"+i, i );
+            fruits[i] = new Cherry("Cherry"+i, "unknown", i );
         }
         intent.putExtra("result", fruits);
         setResult(FirstActivity.PARCELABLE_ARRAY_OBJECT, intent);
@@ -69,7 +69,7 @@ public class ThirdActivity extends ActionBarActivity {
 
     private void returnParcelableObject() {
         Intent intent = new Intent();
-        IFruit fruit = new Cherry("Cherry", 20);
+        IFruit fruit = new Cherry("Cherry", "unknown", 20);
         intent.putExtra("result", fruit);
         setResult(FirstActivity.PARCELABLE_OBJECT, intent);
         finish();
