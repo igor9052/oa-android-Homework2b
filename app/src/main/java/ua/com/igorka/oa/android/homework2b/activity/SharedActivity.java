@@ -20,7 +20,18 @@ public class SharedActivity extends ActionBarActivity {
         setContentView(R.layout.activity_shared);
         textView = (TextView) findViewById(R.id.text);
         Intent intent = getIntent();
+        if (Intent.ACTION_SEND.equals(intent.getAction())) {
+            processSendAction(intent);
+            return;
+        }
         String text = intent.getStringExtra(STRING_DATA);
+        if (text != null && !"".equals(text)) {
+            textView.setText(text);
+        }
+    }
+
+    private void processSendAction(Intent intent) {
+        String text = intent.getStringExtra(Intent.EXTRA_TEXT);
         if (text != null && !"".equals(text)) {
             textView.setText(text);
         }
